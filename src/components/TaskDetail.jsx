@@ -4,8 +4,11 @@ const TaskDetail = () => {
   return (
     <>
     <aside>
-      <div className="pt-4 grid justify-items-stretch w-[300px] h-[1587px] opacity-80 bg-blue-300 rounded-[25px]">
-        <div className=" justify-self-center w-[250px] h-[400px] bg-zinc-500 rounded-[25px]">
+      <div className="pt-6 pb-7 grid grid-rows-5 gap-7 justify-items-stretch w-[300px] h-[1000px] opacity-80 bg-blue-300 rounded-[25px]">
+        <div id="timer" className="pt-4 row-span-2 justify-self-center w-[245px] bg-zinc-500 rounded-[25px]">
+
+        </div>
+        <div id="assignment-details" className="pt-4 row-span-4 justify-self-center w-[245px] bg-zinc-500 rounded-[25px]">
 
         </div>
       </div>
