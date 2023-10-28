@@ -5,11 +5,11 @@ const TaskDetail = () => {
   return (
     <>
     <aside>
-      <div className='space-y-6 p-6 justify-items-stretch h-[700px] opacity-80 bg-blue-300 rounded-[25px]' >
+      <div className='space-y-6 p-6 justify-items-stretch h-[800px] opacity-80 bg-blue-300 rounded-[25px]' >
         <div id="timer" className="pt-4 pb-4 h-[200px] justify-self-center bg-zinc-500 rounded-[25px]">
           
         </div>
-        <div id="assignment-details" className="pb-4 pt-4 h-[430px] justify-self-center bg-zinc-500 rounded-[25px]">
+        <div id="assignment-details" className="pb-4 pt-4 h-[523px] justify-self-center bg-zinc-500 rounded-[25px]">
 
         </div>
       </div>

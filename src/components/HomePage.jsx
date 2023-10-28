@@ -5,7 +5,12 @@ import TaskComponent from './TaskComponent'
 
 const HomePage = () => {
   return (
-    <div className= 'p-5 flex bg-slate-500'>
+    <>
+    <div className='space-y-6 p-6 justify-items-stretch h-[800px] opacity-80 bg-blue-100 rounded-[25px]'>
+      <TaskComponent />
+    </div>
+    {/*
+    <div className= 'space-x-6 p-5 flex bg-slate-500'>
         <div className='w-1/4'>
           <TaskDetail />
         </div>
@@ -14,6 +19,9 @@ const HomePage = () => {
         </div>
         
     </div>
+  */}
+    </>
+  
   )
 }
 
