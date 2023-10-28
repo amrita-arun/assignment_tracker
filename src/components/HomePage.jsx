@@ -1,13 +1,18 @@
 import React from 'react'
 import TaskDetail from './TaskDetail'
 import TaskComponent from './TaskComponent'
+import Timer from './Timer'
 
 
 const HomePage = () => {
   return (
     <>
+    <div>
+
+    </div>
     <div className='space-y-6 p-6 justify-items-stretch h-[800px] opacity-80 bg-blue-100 rounded-[25px]'>
       <TaskComponent />
+      <Timer />
     </div>
     {/*
     <div className= 'space-x-6 p-5 flex bg-slate-500'>
