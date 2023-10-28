@@ -1,0 +1,11 @@
+import React from 'react'
+
+const TaskComponent = () => {
+  return (
+    <div className="container-md  h-[55px] opacity-70 bg-slate-400 rounded-[25px]">
+        <h1>Hello</h1>
+    </div>
+  )
+}
+
+export default TaskComponent
