@@ -29,7 +29,7 @@ function MyTimer({ expiryTimestamp }) {
         <div className='w-[70px] rounded-[10px] bg-blue-300'>
           <button onClick={pause}>Pause</button>
         </div>
-        <div className='w-[] rounded-[10px] bg-blue-300'>
+        <div className='w-[80px] rounded-[10px] bg-blue-300'>
           <button onClick={resume}>Resume</button>
         </div>
         <div className='rounded-[10px] bg-blue-300'>
@@ -49,7 +49,7 @@ function MyTimer({ expiryTimestamp }) {
 
 export default function App() {
   const time = new Date();
-  time.setSeconds(time.getSeconds() + 600); // 10 minutes timer
+  time.setSeconds(time.getSeconds() + 1500); // 10 minutes timer
   return (
     <div>
       <MyTimer expiryTimestamp={time} />
