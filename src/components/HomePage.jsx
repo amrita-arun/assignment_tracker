@@ -3,6 +3,7 @@ import TaskDetail from './TaskDetail'
 import TaskComponent from './TaskComponent'
 import Timer from './Timer'
 import Datetime from 'react-datetime';
+import NewTask from './NewTask';
 
 
 const HomePage = () => {
@@ -11,9 +12,11 @@ const HomePage = () => {
     <div>
 
     </div>
-    <div className='space-y-6 p-6 justify-items-stretch h-[800px] opacity-80 bg-blue-100 rounded-[25px]'>
+    <div className='space-y-3 pt-6 pl-6 pr-6 justify-items-stretch h-[800px] opacity-80 bg-blue-100 rounded-[25px]'>
       <TaskComponent />
+      <NewTask />
     </div>
+    
     {/*
     <div className= 'space-x-6 p-5 flex bg-slate-500'>
         <div className='w-1/4'>
