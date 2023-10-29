@@ -10,8 +10,9 @@ const TaskDetail = () => {
           
         </div>
         <div id="assignment-details" className="pb-4 pt-4 h-[523px] justify-self-center bg-zinc-500 rounded-[25px]">
-
+        
         </div>
+        
       </div>
     </aside>
 
